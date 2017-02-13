@@ -1,0 +1,68 @@
+#my-video {
+  position: relative;
+  z-index: 1;
+}
+#SingularVideo_html5_api {
+  z-index: 1;
+}
+.vjs-control-bar {
+  position: relative;
+  z-index: 7;
+}
+#singularLayer {
+  border: 0px;
+  position: absolute;
+  z-index: 2;
+  top: 0px;
+  pointer-events: none;
+}
+.video-js .vjs-big-play-button {
+  width: 50px;
+  border-radius: 50%;
+  top: calc(50% - 25px);
+  left: calc(50% - 25px);
+  z-index: 5;
+  height: 50px;
+}
+
+#singular-dialog {
+  background: rgba(0,0,0,0.5);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 6;
+  /*display: none;*/
+}
+
+#payload-input {
+  width: calc(100% - 40px);
+  margin: 20px;
+  height: 60%;
+}
+
+#btn-loadPayload {
+  background: #588aef;
+  width: 100px;
+  padding: 10px;
+  border-radius: 2px;
+  position: absolute;
+  left: calc((50% - 50px) - 60px);
+  bottom: 20%;
+}
+
+#btn-loadPayloadCancel {
+  background: #adadad;
+  width: 100px;
+  padding: 10px;
+  border-radius: 2px;
+  position: absolute;
+  left: calc((50% - 50px) + 60px);
+  bottom: 20%;
+}
+
+.marker-in {
+  background-color: green !important;
+}
+.marker-out {
+  background-color: blue !important;
+}
